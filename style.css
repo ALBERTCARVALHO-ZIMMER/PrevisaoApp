@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 200%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 26, 255, 0.973);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-maior {
+    background-color: rgb(0, 0, 0);
+    color: snow;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input {
+    outline: none;
+}
+
+.caixa-pequena {
+    display: flex;
+    align-items: center;
+}
+
+.Previsao {
+    text-transform: capitalize;
+}
+
+button{
+    cursor: pointer;
+}
